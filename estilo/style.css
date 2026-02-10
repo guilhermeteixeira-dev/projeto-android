@@ -37,9 +37,9 @@ a.externo::after { /* caso queira colocar um icone de link usa-se esse codigo*/
 }
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)); /* serve para colocar gradiente no fundo*/
-    min-height: 150px;
+    min-height: 125px;
     text-align: center;
-    
+    padding: 30px;
     
 }
 
