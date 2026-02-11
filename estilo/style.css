@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); /*serve para inserir fonte externa esse é o cod*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
 
 @font-face {
     font-family:'Android';
-    src: url('idroid.otf') format('opentype'); /*quando a fonte é interna do pc usa-se esse cod*/
+    src: url('idroid.otf') format('opentype'); 
     font-weight:normal;
 }
 
 
-:root { /*estrutura de variavel para usar no css ajuda a otimizar*/
+:root { 
     --cor0: #ebe5c5;
     --cor1: #83e1ad;
     --cor2: #3ddc84;
@@ -24,7 +24,7 @@
 
 }
 
-* { /* O * Serve para selecionar todos a sestrutura do html ao mesmoi tempo */
+* { 
     margin: 0%;
     padding: 0%;
 }
@@ -32,11 +32,11 @@
 body {
     background-color: var(--cor0);
 }
-a.externo::after { /* caso queira colocar um icone de link usa-se esse codigo*/
+a.externo::after { 
     content:'\00A0\1F517' ;
 }
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)); /* serve para colocar gradiente no fundo*/
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)); 
     min-height: 125px;
     text-align: center;
     padding: 30px;
@@ -55,11 +55,11 @@ header > h1 {
 header > p {
     color: white;
     font-size: 1.2em;
-    max-width: 500px;
+    max-width: 600px;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
-    margin-bottom: 30px;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
@@ -115,7 +115,7 @@ main h2 {
 main p {
     margin: 15px 0px ;
     text-align: justify;
-    text-indent: 30px; /* para dar recuo/ espaço no inicio do texto */
+    text-indent: 30px; 
     font-size: 1em;
     line-height: 2em;
 } 
@@ -186,9 +186,8 @@ aside h3 {
 
 aside > ul {
     list-style-type:'\2714\00A0\00A0' ;
-    list-style-position: inside; /*serve para os pontos da lista irem para dentro do conteudo*/
-    columns: 2; /*para dividir a coluna da listta em 2 */
-}
+    list-style-position: inside; 
+    columns: 2; 
 
 footer {
     background-color: var(--cor5);
